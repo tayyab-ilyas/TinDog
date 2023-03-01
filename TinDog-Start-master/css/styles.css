@@ -1,14 +1,65 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 #title {
     background-color:#ff4c68;
+    color:white;
 
 }
 
 h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height:1.5;
 }
 .container-fluid{
     padding:3% 15%;
 
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size:1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar-brand{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:2.5rem;
+    font-weight: bold;
+}
+
+.download-btn{
+    margin:5% 3% 5% 0;
+}
+
+.title-img{
+    width:60%;
+    transform:rotate(25deg);
+}
+#features{
+    padding:7% 15%;
+
+}
+.feature-box{
+    text-align:center;
+    padding:5%;
+}
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size:1.25rem;
+}
+p{
+    color:grey;
+}
+.icon{
+    color:#ef8172;
+    margin-bottom:1rem;
+}
+.icon:hover{
+    color:#ff4c68;
 }
