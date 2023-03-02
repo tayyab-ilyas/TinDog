@@ -23,8 +23,7 @@ h2{
     margin:20px;
 }
 .container-fluid{
-    padding:3% 15%;
-
+    padding:3% 15% 7%;
 }
 .navbar{
     padding:0 0 4.5rem;
@@ -49,9 +48,14 @@ h2{
 .title-img{
     width:60%;
     transform:rotate(25deg);
+    position:absolute;
+    right:30%;
 }
 #features{
     padding:7% 15%;
+    background-color: white;
+    position:relative;
+    z-index:1;
 
 }
 .feature-box{
@@ -101,4 +105,36 @@ p{
 }
 .pricing-column{
     padding:3% 2%;
+}
+@media (max-width:1028px){
+    #title{
+        text-align:center;
+    }
+    .title-img{
+        position:static;
+        transform:rotate(0);
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    color:white;
+    padding:7% 15%;
+    text-align:center;
+}
+.cta-heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:1000;
+    font-size:3.5rem;
+    line-height: 1.5;
+    
+
+}
+#footer{
+    padding:7% 15%;
+    text-align:center;
+
+}
+.scl-icn{
+    padding:20px 15px;
 }
